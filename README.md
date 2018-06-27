@@ -1,4 +1,6 @@
-# POPOS-of-SF
+# San Francisco's 
+  Privately Owned 
+# Public Open Spaces
 
  https://alexgood1.github.io/SFPublic-Open-Spaces-GMaps/
 
