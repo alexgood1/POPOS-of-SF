@@ -18,3 +18,5 @@ A map of every San Francisco Privately Owned Public Open Space, with directions 
 
 # Author:
 Alexandra Goodwin
+
+![popos-off-logo-sm](https://user-images.githubusercontent.com/35353393/41986483-1c21134c-79eb-11e8-8d1f-184f3ef85190.png)
