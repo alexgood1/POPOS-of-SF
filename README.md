@@ -1,7 +1,7 @@
 # San Francisco's 
 # Privately Owned Public Open Spaces (POPOS)
 
- https://alexgood1.github.io/SFPublic-Open-Spaces-GMaps/
+https://alexgood1.github.io/SFPublic-Open-Spaces-GMaps/
 
 This App Provides Directions to All 78 of The Bay Area's Public Open Spaces, Located in The Finacial District (Market St./SOMA Area).
 
@@ -12,7 +12,7 @@ A large area map display of Downtown San Francisco with Map Markers on all 78 PO
 
 HTML, CSS, JavaScript, Google Maps JavaScript API, Google Directions API
 
- https://alexgood1.github.io/SFPublic-Open-Spaces-GMaps/
+https://alexgood1.github.io/SFPublic-Open-Spaces-GMaps/
 
 A map of every San Francisco Privately Owned Public Open Space, with directions from user's location to all 78 listings.
 

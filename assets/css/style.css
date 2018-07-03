@@ -1,0 +1,220 @@
+
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Merriweather Sans', sans-serif;
+font-family: 'Muli', sans-serif;
+font-family: 'Cabin', sans-serif;
+font-family: 'Sarina', cursive; */
+
+* {
+  box-sizing: border-box;
+}
+
+#map {
+    height: 600px;
+    width: auto;
+  }
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+/* h2, p { */
+/* pos-title is id in h2 tag for map marker text, pos-para is line of context.  */
+
+#pos-title, #pos-para {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    /* box-shadow: outset 0px 8px 2px 0px black; */
+    /* background-image: url(assets/images/larm-rmah-220894-unsplash2.jpg); */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-shadow: 2px 2px 2px rgb(35, 35, 35);
+    padding: 20px;
+    margin: 15px;
+    margin-top: 65px;
+    line-height: 20%;
+    width: 100% auto;
+}
+
+.inner-border {
+    border: 6px solid rgba(0, 0, 0, 0);
+    box-shadow: inset 0px 0px 0px 6px rgb(252, 252, 252);
+    box-sizing: border-box; /* padding and border in element's width and height */
+}
+
+.inner-outline {
+    outline: 3px solid rgb(90, 90, 89);
+    outline-offset: -30px;
+}
+
+.row {
+  width: 100% auto;
+  display: block;
+  overflow: hidden;
+}
+
+h1 {
+  /*font-family: 'Open Sans', sans-serif;*/
+    /*font-family: 'Megrim', cursive;*/
+    font-family: 'Sarina', cursive;
+    /*font-family: 'Merriweather', serif;*/
+    /*font-family: 'Quintessential', cursive;*/
+    /*font-family: 'Bilbo', cursive;*/
+    font-size: 60px;
+    color: #e47130;
+    text-shadow: 2px 2px 2px rgb(35, 35, 35);
+}
+
+h2 {
+    /*font-family: 'Open Sans', sans-serif;*/
+    font-family: 'Sarina', cursive;
+    /*font-family: 'Merriweather', serif;*/
+    /*font-family: 'Quintessential', cursive;*/
+    /*font-family: 'Bilbo', cursive;*/
+    font-size: 76px;
+    color: rgb(218,69,69);
+    text-shadow: 2px 2px 2px rgb(35, 35, 35);
+}
+
+h3 {
+    /*font-family: 'Oswald', sans-serif;*/
+    /*font-family: 'Sarina', cursive;*/
+    font-family: 'Muli', sans-serif;
+    font-size: 32px;
+    color: #9f3900;
+    text-shadow: 2x 2px 2px rgb(235,232,232);
+}
+
+h6 {
+    font-family: 'Sarina', cursive;
+    font-size: 58px;
+    color: #b4bb48;
+    float: left;
+    width: 550px;
+    align-content: center;
+    margin-top: 200px;
+    margin-left: 450px;
+}
+
+p {
+    font-family: "Muli", sans-serif;
+    font-size: 16px;
+    font: bold;
+    color: #383838;
+    align-content: center;
+    width: 420px;
+    padding: 20px;
+    float: left;
+    margin-left: 30px;
+}
+
+#about_img {
+    float: left;
+    position: relative;
+    width: 300px;
+}
+
+#pom {
+  font-style: italic;
+  color: rgb(250,250,250);
+}
+
+#enter {
+    margin-top: 90px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: rgba(252,252,252,.73);
+    color: rgb(223,221,221);
+    font-family: 'Muli', sans-serif;
+    font-size: 60px;
+    text-shadow: 2px 2px 2px rgb(35, 35, 35);
+    border: none;
+}
+
+/* .btn {
+    align-self: center;
+    margin-top: 220px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background: #44444436;
+    color: #e6e6e6;
+    font-family: 'Megrim', cursive;
+    font-size: 50px;
+    text-shadow: 2px 2px 2px rgb(35, 35, 35);
+    border: none;
+} */
+
+#enter:hover {
+    /*background: rgba(31,126,237,.56);*/
+    color: rgb(218,69,69);
+    border: none;
+    text-decoration: none;
+}
+
+a:hover {
+  text-decoration-line: none;
+  color: rgb(218,69,69);
+}
+
+/* #home1 {
+    font-family: 'Merriweather', serif;
+    font-size: 60px;
+    color: #f7f8f8;
+    padding: 30px;
+    margin-left: 30px;
+    text-align: left;
+} */
+
+/* #home2 { */
+    /* font-family: 'Megrim', cursive; */
+    /* font-family: 'Merriweather', serif;
+    font-size: 76px;
+    color: rgb(255, 140, 95);
+    padding: 30px;
+} */
+
+#hero-home {
+    text-align: center;
+    height: auto;
+    width: 100% auto;
+    /* position: inherit; */
+    display: inherit;
+    /* float: left; */
+    padding: 75px 0px 75px 0px;
+}
+
+/* #spear1 { */
+    /* background-image: url(assets/images/popos-pics/160-Spear-St.jp); */
+    /* margin-left: 0vw;
+    margin-right: 0vw; */
+/* } */
+
+
+/* #canvas_holder{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width:100%;
+    height:600px;
+    z-index: 0;
+}
+
+#map_canvas{
+    width:100%;
+    height:600px;
+    position: "absolute";
+    top: 0px;
+    left: 0px;
+    overflow: "hidden"; */
