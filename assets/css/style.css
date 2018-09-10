@@ -246,6 +246,30 @@ a:hover {
   color: rgb(218, 69, 69);
 }
 
+#btnStartTracking {
+  background: #ce522d;
+  color: rgb(12, 12, 12);
+  font-size: larger;
+  text-shadow: rgb(10, 10, 10);
+  opacity: 0.8;
+  width: 230px;
+  height: 45px;
+  text-align: center;
+  align-self: center;
+}
+
+#btnStopTracking {
+  background: #ce522d;
+  color: rgb(12, 12, 12);
+  font-size: larger;
+  text-shadow: rgb(10, 10, 10);
+  opacity: 0.8;
+  width: 230px;
+  height: 45px;
+  text-align: center;
+  align-self: center;
+}
+
 /* #home1 {
     font-family: 'Merriweather', serif;
     font-size: 60px;
