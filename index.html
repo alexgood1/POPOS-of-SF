@@ -10,11 +10,10 @@
         crossorigin="anonymous">
 
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-
+    <link rel="icon" type="image/png" sizes="72x68" href="assets/images/favicon.png">
     <!-- <link rel="stylesheet" type="text/css" href="assets/css/map.css"> -->
 
     <link href="https://fonts.googleapis.com/css?family=Cabin|Merriweather+Sans|Muli|Open+Sans|Sarina" rel="stylesheet">
-
     <!-- <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -67,19 +66,26 @@
         </div> -->
         <div id="background">
             <div>
-                Privately-owned public open spaces (POPOS) are publicly accessible spaces in forms of plazas, terraces, atriums, small parks,
-                and even snippets which are provided and maintained by private developers. In San Francisco, POPOS mostly
+                Privately-owned public open spaces (POPOS) are publicly accessible spaces in forms of plazas, terraces,
+                atriums, small parks,
+                and even snippets which are provided and maintained by private developers. In San Francisco, POPOS
+                mostly
                 appear in the Downtown office district area.
             </div>
             <div>
-                Prior to 1985, developers provided POPOS under three general circumstances: voluntarily, in exchange for a density bonus,
-                or as a condition of approval. The 1985 Downtown Plan created the first systemic requirements for developers
+                Prior to 1985, developers provided POPOS under three general circumstances: voluntarily, in exchange
+                for a density bonus,
+                or as a condition of approval. The 1985 Downtown Plan created the first systemic requirements for
+                developers
                 to provide publicly accessible open space as a part of projects in C-3 Districts.
             </div>
             <div>
-                The goal was to “provide in the downtown quality open space in sufficient quantity and variety to meet the needs of downtown
-                workers, residents and visitors.” (See Planning Code Section 138 for regulations). Since then, project sponsors
-                for residential projects may provide POPOS instead of their required open spaces in the Downtown Residential
+                The goal was to “provide in the downtown quality open space in sufficient quantity and variety to meet
+                the needs of downtown
+                workers, residents and visitors.” (See Planning Code Section 138 for regulations). Since then, project
+                sponsors
+                for residential projects may provide POPOS instead of their required open spaces in the Downtown
+                Residential
                 (DTR) and Eastern Neighborhoods (Section 135 of the Planning Code). Learn more at
                 <a href="http://sf-planning.org/privately-owned-public-open-space-and-public-art-popos" style="color: #075ebb;">SF-Planning.org</a>
             </div>
@@ -105,11 +111,9 @@
 
 
     <!-- GOOGLE MAP BEGIN -->
-    <div class="wrapper" style="width: auto 100%" ;>
-        <div class="row" id="map">
-            <!-- <div class="row" id="map"></div> -->
-        </div>
-    </div>
+    <!-- <div class="wrapper" style="width: auto 100%" ;> -->
+    <div class="row" id="map"></div>
+    <!-- </div> -->
 
     <hr>
 
@@ -135,14 +139,16 @@
         <div class="row footer-main">
             <div class="container-fluid">
                 <div class="row" id="align_a">
-                    <img src="assets/images/public-open-space.png" style="width: auto" ; "position: relative">
+                    <img src="assets/images/POPOS-off-logo-sm.png" style="width: auto" ; "position: relative">
                 </div>
                 <div class="row" style="width: 80%" id="align">
 
                     <div>
-                        San Francisco Privately Owned Public Open Spaces uses open sourced data provided by data.sfgov.org and is intended for public
+                        San Francisco Privately Owned Public Open Spaces uses open sourced data provided by
+                        data.sfgov.org and is intended for public
                         use and reference. Visit
-                        <a src="https://data.sfgov.org/Culture-and-Recreation/Privately-Owned-Public-Open-Spaces/65ik-7wqd" style="color: #075ebb">Data
+                        <a src="https://data.sfgov.org/Culture-and-Recreation/Privately-Owned-Public-Open-Spaces/65ik-7wqd"
+                            style="color: #075ebb">Data
                             SF </a> for more information on the POPOS of San Francisco.
                     </div>
 
@@ -177,24 +183,18 @@
     <!-- end footer -->
 
 
-
-
-
-
-
-
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCHXvuMoeFXSVpcSDuwWvJ3V5qtbEgaAKk&callback=initMap"
+        async defer></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
         crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
-    <script src="assets/javascript/main.js"></script>
+    <script src="assets/javascript/main-map.js"></script>
     <script src="assets/javascript/auth.js"></script>
     <!-- <script src="assets/javascript/codepen.js"></script> -->
     <script src="assets/javascript/user_location.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCHXvuMoeFXSVpcSDuwWvJ3V5qtbEgaAKk&callback=initMap" async
-        defer></script>
 
 
 </body>

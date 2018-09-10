@@ -10,7 +10,7 @@ font-family: 'Sarina', cursive; */
 
 #map {
   height: 600px;
-  width: auto;
+  width: 100% auto;
 }
 
 html,
@@ -188,12 +188,12 @@ p {
   grid-gap: 1em;
 }
 
-#background>div {
+#background > div {
   background: rgb(255, 255, 255);
   padding: 1em;
 }
 
-#background>div:nth-child(odd) {
+#background > div:nth-child(odd) {
   background: rgb(255, 255, 255);
 }
 
